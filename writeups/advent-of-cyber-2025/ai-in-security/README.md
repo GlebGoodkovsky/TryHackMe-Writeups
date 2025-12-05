@@ -45,8 +45,36 @@ or
 vim script.py
 ```
 
-i personally prefer vim.
+I personally prefer vim.
 
 Afterwards, you will be inside the file, you will paste the code into it, and it will look something like this
 
 ![6](assets/6.png)
+
+---
+## Step 4
+
+![7](assets/7.png)
+
+In the following piece of code, you will replace `MACHINE_IP` with the ip of the target machine
+
+---
+## Step 5
+
+After you do that, you will save and exit the folder, and you will run the folloing command in the vm's terminal
+
+```bash
+python3 script.py
+```
+
+afterwards something like this should appear
+
+![8](assets/8.png)
+
+if you look closely, the hack already reveals to us the second second flag ahead of time
+
+![9](assets/9.png)
+
+However, lets still try get the flag the regular path
+
+---
